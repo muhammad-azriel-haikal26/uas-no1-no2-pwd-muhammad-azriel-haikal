@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Times New Roman", serif;
+}
+
+.jadwal-container {
+    width: 90%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.jadwal-container h2 {
+    margin-bottom: 15px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.jadwal-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.jadwal-table th,
+.jadwal-table td {
+    border: 1.5px solid #555;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+}
+
+.jadwal-table thead th {
+    font-weight: bold;
+}
+
+.waktu {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    width: 130px;
+}
+
+.senin {
+    background-color: #ffd6d6; 
+}
+
+.selasa {
+    background-color: #d9ffd9; 
+}
+
+.rabu {
+    background-color: #d9d9ff; 
+}
+
+.kamis {
+    background-color: #fff1b8; 
+}
+
+.istirahat {
+    background-color: #e6e6e6;
+    font-weight: bold;
+}

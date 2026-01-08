@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+}
+
+nav {
+    background-color: aqua;
+    padding: 20px 0;
+}
+
+.container {
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.unindra-profile {
+    display: flex;
+    align-items: center;
+}
+
+.unindra-profile img {
+    width: 100px;
+    margin-right: 30px;
+}
+
+.unindra-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.unindra-text h2 {
+    margin: 0;
+}
+
+.unindra-text p {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+}
+
+.menu {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.menu a {
+    display: block;
+    background-color: crimson;
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.bagan-utama {
+    background-color: #e5e5e5; /* ABU-ABU seperti gambar */
+    padding: 40px 0;
+}
+
+.bagan-utama table {
+    margin: auto;
+}
+
+.bagan-utama h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.bagan-utama td {
+    padding: 8px;
+}
+
+.bagan-utama input,
+.bagan-utama textarea {
+    width: 300px;
+    padding: 6px;
+}
+
+.bagan-utama button {
+    padding: 8px 25px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.footeh {
+    background-color: aqua;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+}
